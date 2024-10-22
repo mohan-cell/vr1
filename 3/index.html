@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Video Player with &#39;plyr.js&#39;</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://unpkg.com/plyr@3/dist/plyr.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+	<video controls crossorigin playsinline poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg">
+		 <source src="https://amigofx.com:1936/pcnhd/pcnhd/playlist.m3u8" type="application/vnd.apple.mpegurl" size="576">
+
+			<!-- Caption files -->
+			<!-- Fallback for browsers that don't support the <video> element -->
+			<a>Video Oynatılamıyor</a>
+	</video>
+</div>
+<div class="container">
+	<video controls crossorigin playsinline poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg">
+		 <source src="http://mn.capitalfi.net:8088/reshya/reshya.m3u8" type="application/vnd.apple.mpegurl" size="576">
+
+			<!-- Caption files -->
+			<!-- Fallback for browsers that don't support the <video> element -->
+			<a>Video Oynatılamıyor</a>
+	</video>
+</div>
+<!-- Plyr resources and browser polyfills are specified in the pen settings -->
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/polyfill/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL'></script>
+<script src='https://unpkg.com/plyr@3'></script><script  src="./script.js"></script>
+
+</body>
+</html>
